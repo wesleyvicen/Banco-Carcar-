@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.cabra{
+    margin-top: 20%;
+}
+
+.cabra h1{
+    font-weight: 400;
+    font-size: 65px;
+    text-shadow: 5px 4px 5px black;
+}
+
+
+.container-parallax {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.bg-img--version--1 {
+    background: url('../img/nordeste.jpg');
+    opacity: 0.7;
+}

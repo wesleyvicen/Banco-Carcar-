@@ -5,8 +5,9 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const pathToMainJs = require.resolve("./src/app.js");
 const pathToIndexCss = require.resolve("./src/css/style.css");
 const pathToIndexHtml = require.resolve("./src/index.html");
-const pathToIndexFavicon16 = require.resolve("./src/img/favicon-16x16.png");
-const pathToIndexFavicon32 = require.resolve("./src/img/favicon-32x32.png");
+const pathToIndexLogin = require.resolve("./src/img/logo.png");
+const pathToIndexLogo = require.resolve("./src/img/login.png");
+const pathToHomeNordeste = require.resolve("./src/img/nordeste.jpg");
 
 module.exports =  {
   entry: [
@@ -14,8 +15,10 @@ module.exports =  {
     pathToMainJs,
     pathToIndexHtml,
     pathToIndexCss,
-    pathToIndexFavicon16,
-    pathToIndexFavicon32,
+    pathToIndexLogin,
+    pathToIndexLogo,
+    pathToHomeNordeste,
+   
   ],
   plugins: [
     new CleanWebpackPlugin(),
