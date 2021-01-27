@@ -1,4 +1,4 @@
-import baseURL from '../../../service/baseURL.js';
+import baseURL from '../../service/baseURL.js';
 
 // document.postRegisterNewUser = async () => {
 //     const options = {
